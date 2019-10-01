@@ -16,6 +16,7 @@ h1 {
     opacity: 20%;
     transition-duration: 3s;
     transition-delay:0.2s;
+
 }
 
 h1:hover{
@@ -35,7 +36,7 @@ h2 {
 	font-stretch: ultra-condensed;
 	transform: rotate(90deg);
 	transition-duration: 3s;
-	transition-delay:0.1s;
+	transition-delay:0.05s;
 }
 
 h2:hover {
@@ -43,8 +44,18 @@ h2:hover {
 	transform: scale (200%);
     letter-spacing: 1em;
     opacity: 20%;
+
 }
 
+div {
+    color:white;
+    font-size: 10px;
+    transition-duration: 1s;
+	transition-timing-function: linear;
+    }
 
-
-
+div:active  {
+	color:yellow;
+    font-size:  3em;
+    transform:rotate(-90deg);
+}
