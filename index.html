@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="style.css" rel="stylesheet">
+  </head>
+
+ 
+  <body> 
+   
+   <h1>
+
+var tl = new TimelineMax();
+tl.from(<span style="color:yellow">"</span>.panel1 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in1<span style="color:yellow">"</span>)
+  .from(<span style="color:yellow">"</span>.panel1 .bg<span style="color:yellow">"</span>, 0.3, {rotation:90, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in1<span style="color:yellow">"</span>)
+  .staggerFrom(<span style="color:yellow">"</span>.panel1 .text span<span style="color:yellow">"</span>, 1.1, {y:-50, <span style="color:white">ooooooo</span>:0, ease:Elastic.easeOut}, 0.06)
+  .addLabel(<span style="color:yellow">"</span>out1<span style="color:yellow">"</span>, <span style="color:yellow">"</span>+=1<span style="color:yellow">"</span>)
+	.staggerTo(<span style="color:yellow">"</span>.panel1 .text span<span style="color:yellow">"</span>, 0.3, {<span style="color:white">ooooooo</span>:0, y:50, ease:Power1.easeIn}, -0.06, <span style="color:yellow">"</span>out1<span style="color:yellow">"</span>)
+  .to(<span style="color:yellow">"</span>.panel1 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, rotation:<span style="color:white">"-90</span>), ease:Power1.easeInOut})
+  .from(<span style="color:yellow">"</span>.panel2 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in2<span style="color:yellow">"</span>)
+  .from(<span style="color:yellow">"</span>.panel2 .bg<span style="color:yellow">"</span>, 0.3, {rotation:90, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in2<span style="color:yellow">"</span>)
+  .staggerFrom(<span style="color:yellow">"</span>.panel2 .text span<span style="color:yellow">"</span>, 1.1, {y:-50, <span style="color:white">ooooooo</span>:0, ease:Elastic.easeOut}, 0.06)
+  .addLabel(<span style="color:yellow">"</span>out2<span style="color:yellow">"</span>, <span style="color:yellow">"</span>+=1<span style="color:yellow">"</span>)
+	.staggerTo(<span style="color:yellow">"</span>.panel2 .text span<span style="color:yellow">"</span>, 0.3, {<span style="color:white">ooooooo</span>:0, y:50, ease:Power1.easeIn}, -0.06, <span style="color:yellow">"</span>out2<span style="color:yellow">"</span>)
+  .to(<span style="color:yellow">"</span>.panel2 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, rotation:<span style="color:white">"-90</span>), ease:Power1.easeInOut})
+  .from(<span style="color:yellow">"</span>.panel3 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in3<span style="color:yellow">"</span>)
+  .from(<span style="color:yellow">"</span>.panel3 .bg<span style="color:yellow">"</span>, 0.3, {rotation:90, ease:Power1.easeInOut}, <span style="color:yellow">"</span>in3<span style="color:yellow">"</span>)
+  .staggerFrom(<span style="color:yellow">"</span>.panel3 .text span<span style="color:yellow">"</span>, 1.1, {y:-50, <span style="color:white">ooooooo</span>:0, ease:Elastic.easeOut}, 0.06)
+  .addLabel(<span style="color:yellow">"</span>out3<span style="color:yellow">"</span>, <span style="color:yellow">"</span>+=1<span style="color:yellow">"</span>)
+  .staggerTo(<span style="color:yellow">"</span>.panel3 .text span<span style="color:yellow">"</span>, 0.3, {<span style="color:white">ooooooo</span>:0, y:50, ease:Power1.easeIn}, -0.06, <span style="color:yellow">"</span>out3<span style="color:yellow">"</span>)
+  .to(<span style="color:yellow">"</span>.panel3 .bg<span style="color:yellow">"</span>, 0.4, {scale:0, rotation:<span style="color:white">"-90</span>), ease:Power1.easeInOut}); 
+
+//good
+//tl.play(<span style="color:yellow">"</span>in3<span style="color:yellow">"</span>);
+//tl.timeScale(3).repeat(2);
+
+
+//make smaller for when demo is embedded
+TweenLite.set(<span style="color:yellow">"</span>.banner<span style="color:yellow">"</span>, {scale:0.8, transformOrigin:<span style="color:yellow">"</span>left top<span style="color:yellow">"</span>});
+</h1>
+
+<h2 class="box bounce-3"> :S]< </h2>
+<h2 class="box bounce-3"> :O{< </h2>
+<h2 class="box bounce-3"> :D]< </h2>
+<h2 class="box bounce-3"> :>{< </h2>
+</body>
+</html>

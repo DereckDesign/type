@@ -1,0 +1,50 @@
+/* style */
+
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900&display=swap');
+body {
+	background-color: rgb(0, 23, 125);
+	color: rgb(0, 23, 125);
+	padding-left: 2em;
+}
+
+h1 {
+	
+	font-size: 1em; 
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 1em;
+    opacity: 20%;
+    transition-duration: 3s;
+    transition-delay:0.2s;
+}
+
+h1:hover{
+	color: rgb(1, 203, 255);
+	font-size: 2em; 
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 0.5em;
+}
+
+h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight:bolder;
+	font-size: 5em;
+	color: white;
+	float: left;
+	position: relative;
+	font-stretch: ultra-condensed;
+	transform: rotate(90deg);
+	transition-duration: 3s;
+	transition-delay:0.1s;
+}
+
+h2:hover {
+	color: rgb(1, 203, 255);
+	transform: scale (200%);
+    letter-spacing: 1em;
+    opacity: 20%;
+}
+
+
+
+
