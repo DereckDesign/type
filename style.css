@@ -54,7 +54,7 @@ div {
 	transition-timing-function: linear;
     }
 
-div:hover   {
+div:active   {
 	color:yellow;
     font-size:  3em;
     transform:rotate(-90deg);
